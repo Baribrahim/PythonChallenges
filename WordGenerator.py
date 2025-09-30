@@ -21,3 +21,12 @@ class WordGenerator:
 
     def get_random_word(self):
         return self.random_word
+
+print("\U0001f600 You win!")
+
+print("\U0001F923 You lost! Haha, the word was " + chosenWord)
+
+userinput = userinput.lower()
+
+if livesCounter == 3:
+    print("Clue: " + chosenWord[0:1])
